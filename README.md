@@ -13,7 +13,7 @@ My Website:
 ![alt text](img/nikeTalia2.JPG)
 
 
-##User Stories and Personas
+## User Stories and Personas
 
 1. *Jenny, the Artist:* This type of user needs a creative environment where they can dress in a relaxed fashion, have inspiration all around, and have quick access to on-site coffee and snacks. They want community and enjoy colorful atmospheres. They enjoy the occasional distraction to help them free their mind and focus on something else for a bit. A Thursday afternoon yoga class is great.
 
@@ -21,16 +21,45 @@ My Website:
 
 3. *Lorrie, the Entrepreneur:* This type of user needs a space they can be professional in but that is homey and comfortable enough that they can relax and get into their optimized workflow. They may have family and other distractions at home and they need a place where they can really get work done without feeling too isolated.
 
-4. *Roberto, the craftsperson:* This type of user also enjoys a creative environment but they may need some space to spread out and work on their projects. Due to the hands-on nature of their work, they often enjoy talking or singing a bit while they work away at the project at hand.
+4. *Roberto, the Craftsperson:* This type of user also enjoys a creative environment but they may need some space to spread out and work on their projects. Due to the hands-on nature of their work, they often enjoy talking or singing a bit while they work away at the project at hand.
 
-5. *Talia, the tech guru:* This type of user has a lot of coding and tech-oriented projects to get through. They need a constant source of energy-providing snacks to keep their mind going. They’ll be putting their headphones in right away and tuning out the outside world but enjoy the buzz of creativity from others in the vicinity. They will be upset if the wifi is not lightning fast, as their constant google searching will be dramatically slowed down if the wifi is slow.
+5. *Talia, the Tech Guru:* This type of user has a lot of coding and tech-oriented projects to get through. They need a constant source of energy-providing snacks to keep their mind going. They’ll be putting their headphones in right away and tuning out the outside world but enjoy the buzz of creativity from others in the vicinity. They will be upset if the wifi is not lightning fast, as their constant google searching will be dramatically slowed down if the wifi is slow.
 
-###Commonalities between User Types:
+### Commonalities between User Types:
   1. Looking for an environment that spurs creativity and provides inspiration.
   2. Need a professional enough setting that they are motivated to get into the workflow and can feel proud inviting others to meetings at the location.
   3. But at the same time, want a comfortable enough space that they don’t have to be in professional clothes all the time and can tap into their creativity.
   4. Enjoy the occasional distraction, especially when they need to free their mind or get some inspiration.
-  5. More of a fun than a serious environment where they can build their network and meet other people who share a passion for entrepreneurship and creative coworking.
+  5. More of a fun than a serious environment where they can build their network and meet other people who share a passion for entrepreneurship and creative co-working.
+
+## Research & Decision-making Process:
+
+Here are my final decisions:
+1. The Landing page will be organized in a similar fashion to other co-working space websites: 1. Moving Cover Image with a slogan 2. Text that relates to the company's brand on a white background 3. Membership Options 4. A parallax image with a member quote on top 5. Amenities 6. Picture Row of User's Logos 7. Footer with Logo, Visit Us, Contact Us, and Follow Us information.
+2. The color palette will be consistent with the company's decor colors: light purple, magenta, mint green, darker aqua, yellow, bright pink, light pink, and a soft gray.
+3. Animations and life will be given to the site through a moving cover image on the landing page, parallax scroll effects, hover effects, etc.
+
+For my additional research and brainstorming, as well as examples of sites I gained inspiration from, please see this GoogleDoc: (https://docs.google.com/document/d/1petmLsK69eFifY4SVofnhaVSF2kEgZ4fHEX_-dKasGU/edit?usp=sharing "LoveWork Research").
+
+## Sketching Designs:
+
+![alt text](img/sketch1.jpg)
+*Landing Page 1 for Desktop*
+
+![alt text](img/sketch2.jpg)
+*Landing Page 2 for Desktop*
+
+![alt text](img/sketch3.jpg)
+*Landing Page for Mobile*
+
+![alt text](img/sketch4.jpg)
+*About Page for Desktop*
+
+![alt text](img/sketch5.jpg)
+*Join Page for Desktop*
+
+![alt text](img/sketch6.jpg)
+*Contact Page for Desktop*
 
 ## Setup/Installation Requirements
 
