@@ -44,21 +44,27 @@ For my additional research and brainstorming, as well as examples of sites I gai
 ## Sketching Designs:
 
 ![alt text](img/sketch1.jpg)
+
 *Landing Page 1 for Desktop*
 
 ![alt text](img/sketch2.jpg)
+
 *Landing Page 2 for Desktop*
 
 ![alt text](img/sketch3.jpg)
+
 *Landing Page for Mobile*
 
 ![alt text](img/sketch4.jpg)
+
 *About Page for Desktop*
 
 ![alt text](img/sketch5.jpg)
+
 *Join Page for Desktop*
 
 ![alt text](img/sketch6.jpg)
+
 *Contact Page for Desktop*
 
 ## Setup/Installation Requirements
