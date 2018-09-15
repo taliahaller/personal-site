@@ -9,7 +9,7 @@ A new co-working startup came to Portland, Oregon and hired me to create this we
 
 Full Wireframe of Website:
 
-![alt text](img/fullshot.png)
+![alt text](img/fullshot2.png)
 
 
 Desktop Landing Page:
@@ -19,6 +19,14 @@ Desktop Landing Page:
 Desktop About Page:
 
 ![alt text](img/desktopAboutPage.png)
+
+Desktop Membership Page:
+
+![alt text](img/membership.png)
+
+Desktop Contact Page:
+
+![alt text](img/contact.png)
 
 
 ## User Stories and Personas
