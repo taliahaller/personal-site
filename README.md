@@ -7,10 +7,18 @@
 
 A new co-working startup came to Portland, Oregon and hired me to create this website for them. This site includes a landing page, contact page, page featuring amenities, and a page detailing cost/membership/how to join.
 
-My Website:
+Full Wireframe of Website:
 
-![alt text](img/nikeTalia1.JPG)
-![alt text](img/nikeTalia2.JPG)
+![alt text](img/fullshot.png)
+
+
+Desktop Landing Page:
+
+![alt text](img/desktopLandingPage.png)
+
+Desktop About Page:
+
+![alt text](img/desktopAboutPage.png)
 
 
 ## User Stories and Personas
