@@ -9,12 +9,12 @@ A new co-working startup came to Portland, Oregon and hired me to create this we
 
 Full Wireframe of Website:
 
-![alt text](img/fullshot2.png)
+![alt text](src/img/fullshot2.png)
 
 
 Desktop Landing Page:
 
-![alt text](img/desktopLandingPage.png)
+![alt text](src/img/desktopLandingPage.png)
 
 Desktop About Page:
 
