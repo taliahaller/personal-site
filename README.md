@@ -9,24 +9,24 @@ A new co-working startup came to Portland, Oregon and hired me to create this we
 
 Full Wireframe of Website:
 
-![alt text](src/img/fullshot2.png)
+![alt text](src/assets/img/fullshot2.png)
 
 
 Desktop Landing Page:
 
-![alt text](src/img/desktopLandingPage.png)
+![alt text](src/assets/img/desktopLandingPage.png)
 
 Desktop About Page:
 
-![alt text](src/img/desktopAboutPage.png)
+![alt text](src/assets/img/desktopAboutPage.png)
 
 Desktop Membership Page:
 
-![alt text](src/img/membership.png)
+![alt text](src/assets/img/membership.png)
 
 Desktop Contact Page:
 
-![alt text](src/img/contact.png)
+![alt text](src/assets/img/contact.png)
 
 
 ## User Stories and Personas
@@ -59,27 +59,27 @@ For my additional research and brainstorming, as well as examples of sites I gai
 
 ## Sketching Designs:
 
-![alt text](src/img/sketch1.jpg)
+![alt text](src/assets/img/sketch1.jpg)
 
 *Landing Page 1 for Desktop*
 
-![alt text](src/img/sketch2.jpg)
+![alt text](src/assets/img/sketch2.jpg)
 
 *Landing Page 2 for Desktop*
 
-![alt text](src/img/sketch3.jpg)
+![alt text](src/assets/img/sketch3.jpg)
 
 *Landing Page for Mobile*
 
-![alt text](src/img/sketch4.jpg)
+![alt text](src/assets/img/sketch4.jpg)
 
 *About Page for Desktop*
 
-![alt text](src/img/sketch5.jpg)
+![alt text](src/assets/img/sketch5.jpg)
 
 *Join Page for Desktop*
 
-![alt text](src/img/sketch6.jpg)
+![alt text](src/assets/img/sketch6.jpg)
 
 *Contact Page for Desktop*
 
