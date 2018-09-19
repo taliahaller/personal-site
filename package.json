@@ -1,0 +1,20 @@
+{
+  "name": "loveWork",
+  "version": "1.0.0",
+  "description": "#### Mock Freelance Co-Working Contract, 14 September 2018. #### By Talia Haller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taliahaller/loveWork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taliahaller/loveWork/issues"
+  },
+  "homepage": "https://github.com/taliahaller/loveWork#readme"
+}
