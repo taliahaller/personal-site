@@ -1,7 +1,138 @@
-$font-stack: Helvetica, sans-serif;
-$primary-font-color: red;
+// Colors
+$lightPink: #FDD6D6;
+$darkPink: #E883AA;
+$yellow: #EEC252;
+$aqua: #00C2C4;
+$darkGray: #4A4A4A;
+
+// Fonts
+
+@mixin navMenu {
+  font-family: "Hiragino Sans";
+  color: $lightPink;
+  font-size: 18px;
+  font-weight: 100;
+}
+@mixin heroTitle {
+  font-family: "Hiragino Sans";
+  color: white;
+  font-size: 29px;
+  font-weight: 900;
+}
+@mixin paragraphWhite {
+  font-family: "Hiragino Sans";
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+@mixin paragraphRegular {
+  font-family: "Hiragino Sans";
+  color: black;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 1.16;
+  line-height: 25;
+}
+@mixin blackCapsTitle {
+  font-family: "Hiragino Sans";
+  color: $darkGray;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.07;
+  line-height: 44;
+}
+@mixin whiteCapsTitle {
+  font-family: "Hiragino Sans";
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.58;
+  line-height: 40;
+  font-weight: 700;
+}
+@mixin whiteSubtitle {
+  font-family: "Hiragino Sans";
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.36;
+  line-height: 18;
+  font-weight: 800;
+}
+@mixin whiteCaption {
+  font-family: "Hiragino Sans";
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.36;
+  line-height: 16;
+  font-weight: 300;
+}
+
+h1 {@include heroTitle;}
+h2 {@include blackCapsTitle;}
+h3 {@include whiteCapsTitle;}
+h4 {@include whiteCaption;}
+h5 {@include paragraphWhite;}
+h6 {@include whiteSubtitle;}
+p {@include paragraphRegular;}
+li {@include navMenu;}
+
+// Styling
 
 body {
-  font: 100% $font-stack;
-  color: $primary-font-color;
+  font: "Hiragino Sans"
 }
+
+.navBar {
+  height: 100px;
+  color: rgba(0,0,0,91);
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    height: 81px;
+    margin-left: 20px;
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
