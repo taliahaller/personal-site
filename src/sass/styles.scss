@@ -54,6 +54,8 @@ $darkGray: #4A4A4A;
   text-transform: uppercase;
   letter-spacing: 0.58px;
   font-weight: 700;
+  margin-block-start: .4em;
+  margin-block-end: 1em;
 }
 @mixin whiteSubtitle {
   font-family: "Hiragino Sans";
@@ -88,6 +90,15 @@ a:Hover {
   color: lighten($lightPink, 20%);
 }
 
+.underline {
+border-bottom: 1px solid white;
+margin-top: 50px;
+}
+
+.biggerh3 {
+  font-size: 55px;
+}
+
 // Styling
 
 
@@ -96,7 +107,7 @@ a:Hover {
   position: fixed;
   height: 100px;
   width: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .1);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -143,18 +154,18 @@ a:Hover {
     display: flex;
     justify-content: center;
   }
-      .button {
-        @include paragraphWhite;
-      background-color: $aqua;
-      padding: 8px 12px;
-      margin-left: 10px;
-      margin-bottom: 25px;
-      border: none;
-      border-radius: 5px;
-    }
-    .button:hover {
-      background-color: lighten($aqua, 10%);
-    }
+  .button {
+    @include paragraphWhite;
+  background-color: $aqua;
+  padding: 8px 12px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 5px;
+  }
+  .button:hover {
+  background-color: lighten($aqua, 10%);
+  }
 }
 
 .themeText {
@@ -174,23 +185,51 @@ a:Hover {
 .membershipClasses {
   display: flex;
   justify-content: space-between;
+  position: relative;
   .membershipOption {
     display: flex;
     flex-direction: column;
-    height: 30vw;
-    width: 30vw;
-    .singleDesk {
-      background-image: url("../assets/img/single.png");
+    height: 408px;
+    width: 33vw;
+    text-align: center;
+    h3 {
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
     }
-    .privateOffice {
-      background-image: url("../assets/img/private.png");
-    }
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
   }
 }
 
+  .learnButton {
+    border: 3px solid white;
+    background-color: transparent;
+    padding: 10px 5px;
+    width: 150px;
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    }
+  }
+
 .community {
   background-image: url("../assets/img/community.png");
-  background-size: contain;
+  background-size: cover;
+  background-position: left center;
+}
+.singleDesk {
+  background-image: url("../assets/img/single.png");
+  background-size: cover;
+  background-position: left center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.privateOffice {
+  background-image: url("../assets/img/private.png");
+  background-size: cover;
+  background-position: left center;
 }
 
 
