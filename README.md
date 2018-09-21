@@ -85,10 +85,13 @@ For my additional research and brainstorming, as well as examples of sites I gai
 
 ## Setup/Installation Requirements
 
-    This webpage requires no installation.
+    This webpage requires installation.
     1. Clone the repository in the terminal, using the "git clone" command.
     2. CD into the directory of interest.
-    3. Open the index.html file in your browser, using "open index.html" or a method of your choosing.
+    3. In the terminal, run the command: "npm install".
+    4. Then run the command to initialize the npm: "npm init -y".
+    5. With everything installed, run the command to load the site: "npm run start". A website with the site will show up.
+
 
 ## Bugs
 
@@ -106,6 +109,7 @@ Please email taliahaller@gmail.com if an issue arises or if you have questions a
     Atom
     JS
     JQuery
+    Webpack
 
 ## License
 
