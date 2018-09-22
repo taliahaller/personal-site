@@ -54,7 +54,7 @@ $darkGray: #4A4A4A;
   text-transform: uppercase;
   letter-spacing: 0.58px;
   font-weight: 700;
-  margin-block-start: .4em;
+  margin-block-start: 0em;
   margin-block-end: 1em;
 }
 @mixin whiteSubtitle {
@@ -107,19 +107,20 @@ margin-top: 50px;
 
 // Styling
 
-
 .navBar {
   z-index: 5;
   position: fixed;
   height: 100px;
   width: 100%;
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
   justify-content: space-between;
   align-items: center;
   .logo {
     height: 81px;
-    margin-left: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    transform: scale(1.2);
   }
   ul {
     list-style-type: none;
@@ -130,8 +131,20 @@ margin-top: 50px;
   }
 }
 
+.hamburger {
+  display: none;
+  font-size: 35px;
+  color: $lightPink;
+  padding-right: 50px;
+}
+
 .scrolled {
   background-color: #383838;
+  .logo {
+    margin-top: 0px;
+    margin-left: 30px;
+    transform: scale(1);
+  }
 }
 
 .heroImageBG {
@@ -150,7 +163,7 @@ margin-top: 50px;
   position: absolute;
   height: 160px;
   width: 500px;
-  background-image: linear-gradient(rgba(0,0,0,100), rgba(0,0,0,0));
+  background-image: linear-gradient(rgba(40,38,41,100), rgba(40,38,41,0));
   border: none;
   border-radius: 5px;
   bottom: 150px;
@@ -233,6 +246,7 @@ margin-top: 50px;
   }
 }
 
+
   .learnButton {
     border: 3px solid white;
     background-color: transparent;
@@ -249,10 +263,10 @@ margin-top: 50px;
   background-image: url("../assets/img/2.1.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center right;
+  // background-position: center right;
   background-size: cover;
   min-height: 700px;
-  min-width: 1600px;
+  min-width: 1100px;
   width: 100%;
   height: 100%;
   padding-top: 150px;
@@ -275,6 +289,31 @@ margin-top: 50px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 15px;
+  }
+}
+
+.hiddenMemberMagic {
+  display: none;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h3 {
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgba(0,194,196,.9), rgba(0,194,196,0.1));
+    width: 100%;
+    padding: 20px 0px 20px 25px;
+  }
+  #quote {
+    max-width: 400px;
+    margin: 20px auto;
+    p {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    p:last-child {
+      padding-left: 50px;
+    }
   }
 }
 
@@ -325,14 +364,15 @@ margin-top: 50px;
 .amenities {
   max-width: 1050px;
   margin: 75px auto 100px auto;
+  padding-left: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   .amenityItem {
-    min-width: 230px;
+    min-width: 255px;
     width: calc(100%/3 - 90px);
     padding-top: 25px;
-    padding-right:30px;
+    padding-right:40px;
     .amenityTitle {
       font-weight: 500;
       color: black;
@@ -385,13 +425,14 @@ margin-top: 50px;
   }
 }
 
-
 .upcomingEvents {
+  transform: scale(1.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 800px;
   margin: 50px auto;
+  margin-bottom: 150px;
   .eventsFlexBox {
     display: flex;
     flex-direction: row;
@@ -525,42 +566,87 @@ footer {
   }
 }
 
+// Media Queries
 
+@media screen and (max-width: 1240px) {
+  .membershipClasses .membershipOption{
+  border: 2px solid white;
+    height: 100%;
+    width: 70%;
+  }
+}
 
+@media screen and (max-width: 1212px) {
+  .upcomingEvents {
+    transform: scale(.9);
+  }
+}
 
+@media screen and (max-width: 1200px) {
+  .users .userFace {
+    width: auto;
+  }
+}
 
+@media screen and (max-width: 1100px) {
+  .memberMagic {
+    min-width: 1100px;
+    min-height: 550px;
+    height: auto;
+    background-position: center;
+    background-size: contain;
+  }
+}
 
+@media screen and (max-width: 825px) {
+  .navBar .hamburger {
+    display: block;
+  }
+  .navBar ul{
+    display: none;
+  }
+}
 
+@media screen and (max-width: 800px) {
+  .memberMagic {
+    display: none;
+  }
+  .hiddenMemberMagic {
+    display: block;
+  }
+  .upcomingEvents {
+    margin: 30px auto;
+    #upcomingEvent{
+      text-align: center;
+      margin-top: 0px;
+    }
+    .eventsFlexBox {
+    flex-direction: column;
+    .yogaText {
+      width: 100%;
+      }
+    }
+  }
+  footer
+  .footerInfo {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    .Visit-Us {
+      margin-top: 10px;
+      &:last-child {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .secondRow {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    padding-inline-start: 0px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
