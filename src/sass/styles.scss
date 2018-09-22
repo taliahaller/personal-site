@@ -316,6 +316,9 @@ margin-top: 50px;
     float: right;
     margin-top: 20px;
     font-size: calc(1.3vw);
+    &:hover {
+      background-color: lighten($yellow, 10%);
+    }
   }
 }
 
@@ -360,11 +363,28 @@ margin-top: 50px;
     .imageText {
       position: absolute;
       z-index: 2;
-      bottom: 20px;
-      left: 20px;
+      // bottom: 20px;
+      // left: 20px;
+      bottom: 13px;
+      padding-left: 20px;
+      }
     }
   }
+
+.hover:hover {
+  transform: scale(1.2);
+  z-index: 4;
+  transition-delay: 3s ease;
+  img {
+  opacity: .9;
+  }
+  .imageText {
+    background-color: black;
+    width: 96%;
+    height: 90px;
+  }
 }
+
 
 .upcomingEvents {
   display: flex;
@@ -408,16 +428,23 @@ margin-top: 50px;
       }
     }
     .yogaImage {
+      position: relative;
       img {
         display: block;
         height: object-fit;
         width: 100%;
       }
-      .imageText {
+      .yogaImageText {
         position: absolute;
         z-index: 2;
-        bottom: 20px;
+        bottom: 0px;
         left: 20px;
+        h4 {
+          font-size: 13px;
+          text-transform: none;
+          letter-spacing: 1px;
+          font-weight: 100;
+        }
       }
     }
   }
@@ -473,7 +500,7 @@ footer {
         text-align: center;
       }
       i {
-        color: white;
+        color: darken(white, 20%);
         font-size: 15px;
         padding-right: 10px;
       }
