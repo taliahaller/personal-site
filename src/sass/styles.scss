@@ -246,7 +246,6 @@ margin-top: 50px;
   }
 }
 
-
   .learnButton {
     border: 3px solid white;
     background-color: transparent;
@@ -645,12 +644,19 @@ footer {
     padding: 0px;
     padding-inline-start: 0px;
   }
-
 }
 
-
-
-
-footer {
-
+@media screen and (max-width: 660px) {
+  .heroImageBG {
+    width: 100%;
+    height: 800px;
+    background-position: 50% 90%;
+  }
+  .heroContent {
+    transform: scale(.7);
+    width: 80%;
+    margin: 30px auto;
+    height: 250px;
+    bottom: 0px;
+  }
 }
